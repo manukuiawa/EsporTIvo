@@ -1,0 +1,836 @@
+@import url('https://fonts.googleapis.com/css2?family=Open_Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Agbalumo & family= Bebas+Neue & family= Dongle & family= Jost:wght@200 & family= Oswald:wght@400; 500 & família= Sedgwick+Ave+Display & família= Shantell+Sans:wght@300 & família= Skranji & família= Espaço+Grotesk:wght@400;600;700 & família= Teko:wght@500 & display=swap' );
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Dongle&family=Jost:wght@200&family=Kanit:ital,wght@1,500&family=Lato:wght@300&family=Oswald:wght@400;500&family=Sedgwick+Ave+Display&family=Shantell+Sans:wght@300&family=Skranji&family=Space+Grotesk:wght@400;600;700&family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Dongle&family=Jost:wght@200&family=Kanit:ital,wght@1,500&family=Lato:wght@300&family=Oswald:wght@400;500&family=Sedgwick+Ave+Display&family=Shantell+Sans:wght@300&family=Signika+Negative:wght@700&family=Skranji&family=Space+Grotesk:wght@400;600;700&family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Dongle&family=Jost:wght@200&family=Kanit:ital,wght@1,500&family=Lato:wght@300&family=Oswald:wght@400;500&family=Raleway:ital,wght@1,400;1,600&family=Sedgwick+Ave+Display&family=Shantell+Sans:wght@300&family=Signika+Negative:wght@700&family=Skranji&family=Space+Grotesk:wght@400;600;700&family=Teko:wght@500&family=Ubuntu:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Dongle&family=Jost:wght@200&family=Kanit:ital,wght@1,500&family=Lato:wght@300&family=M+PLUS+Rounded+1c:wght@700&family=Merriweather+Sans:wght@600&family=Oswald:wght@400;500&family=Raleway:ital,wght@1,400;1,600&family=Sedgwick+Ave+Display&family=Shantell+Sans:wght@300&family=Signika+Negative:wght@700&family=Skranji&family=Space+Grotesk:wght@400;600;700&family=Teko:wght@500&family=Ubuntu:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agbalumo&family=Bebas+Neue&family=Dongle&family=Jost:wght@200&family=Kanit:ital,wght@1,500&family=Lato:wght@300&family=M+PLUS+Rounded+1c:wght@700&family=Merriweather+Sans:wght@600&family=Oswald:wght@400;500&family=Outfit:wght@600&family=Raleway:ital,wght@1,400;1,600&family=Sedgwick+Ave+Display&family=Shantell+Sans:wght@300&family=Signika+Negative:wght@700&family=Skranji&family=Space+Grotesk:wght@400;600;700&family=Teko:wght@500&family=Ubuntu:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Acme & family= Agbalumo & family= Bebas+Neue & family= Dongle & family= Jost:wght@200 & family= Kanit: ital,wght@1.500 & family= Lato:wght@300 & family= M+PLUS+Rounded+1c:wght@700 & family= Merriweather+Sans:wght@600 & family= Oswald:wght@400;500 & family= Roupa:wght@600 & família= Areia movediça & família= Raleway:ital,wght@1.400;1.600 & família= Sedgwick+Ave+Display & família= Shantell+Sans:wght@300 & família= Signika+Negativo:wght@700 & family= Skranji & family= Espaço+Grotesk:wght@400;600;700 & family= Teko:wght@500 & family= Ubuntu:ital,wght@1,500 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agbalumo&family=Bebas+Neue&family=Dongle&family=Jost:wght@200&family=Kanit:ital,wght@1,500&family=Lato:wght@300&family=M+PLUS+Rounded+1c:wght@700&family=Merriweather+Sans:wght@600&family=Oswald:wght@400;500&family=Outfit:wght@600&family=Prompt:wght@300&family=Quicksand&family=Raleway:ital,wght@1,400;1,600&family=Sedgwick+Ave+Display&family=Shantell+Sans:wght@300&family=Signika+Negative:wght@700&family=Skranji&family=Space+Grotesk:wght@400;600;700&family=Teko:wght@500&family=Ubuntu:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agbalumo&family=Bebas+Neue&family=Dongle&family=Jost:wght@200&family=Kanit:ital,wght@1,500&family=Lato:wght@300&family=M+PLUS+Rounded+1c:wght@700&family=Merriweather+Sans:wght@600&family=Oswald:wght@400;500&family=Outfit:wght@400;600&family=Prompt:wght@300&family=Quicksand&family=Raleway:ital,wght@1,400;1,600&family=Sedgwick+Ave+Display&family=Shantell+Sans:wght@300&family=Signika+Negative:wght@700&family=Skranji&family=Space+Grotesk:wght@400;600;700&family=Teko:wght@500&family=Ubuntu:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agbalumo&family=Bebas+Neue&family=Dongle&family=Jost:wght@200&family=Kanit:ital,wght@1,500&family=Lato:wght@300&family=M+PLUS+Rounded+1c:wght@700&family=Merriweather+Sans:wght@600&family=Oswald:wght@400;500&family=Outfit:wght@400;600&family=Prompt:wght@300&family=Quicksand&family=Raleway:ital,wght@1,400;1,600&family=Sedgwick+Ave+Display&family=Shantell+Sans:wght@300&family=Signika+Negative:wght@700&family=Skranji&family=Space+Grotesk:wght@400;600;700&family=Teko:wght@500&family=Ubuntu:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agbalumo&family=Bebas+Neue&family=Dongle&family=Dosis&family=Jost:wght@200&family=Kanit:ital,wght@1,500&family=Lato:wght@300&family=M+PLUS+Rounded+1c:wght@700&family=Merriweather+Sans:wght@600&family=Oswald:wght@400;500&family=Outfit:wght@400;600&family=Prompt:wght@300&family=Quicksand&family=Raleway:ital,wght@1,400;1,600&family=Sedgwick+Ave+Display&family=Shantell+Sans:wght@300&family=Signika+Negative:wght@700&family=Skranji&family=Space+Grotesk:wght@400;600;700&family=Teko:wght@500&family=Ubuntu:ital,wght@1,500&display=swap');
+
+
+
+ul {
+    list-style-type: none;
+}
+
+.acessar-conta {
+    font-size: 15px; 
+    color: yellow; 
+    margin-right: 160px; 
+    text-decoration: none; 
+   
+}
+
+.cadastrar-agora {
+    font-size: 12px; 
+    color: gray; 
+    text-decoration: none; 
+}
+
+.retangulo {
+            /*background-color: rgb(241, 241, 22);*/
+            background-image: linear-gradient( to right, rgb(241,241,22), rgb(6,150,23) );
+            color: #FFFFFF;
+            padding: 11px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 50px;
+            width: 2000px;
+            height: 60px;
+            font-family: 'Agbalumo';
+}
+
+.retangulo h2 {
+    margin-left: 650px;
+}
+
+.assinar {
+    text-decoration: none;
+    color: rgb(6, 150, 23);
+}
+
+.entrar {
+    text-decoration: none;
+    color: rgb(6, 150, 23);
+}
+
+.links-assinar-entrar .spacer {
+    margin: 0 10px; 
+}
+
+footer {
+    background-image: linear-gradient( to right, rgb(241,241,22), rgb(6,150,23));
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    
+}
+
+a i.fab.fa-instagram:hover  {
+    color: rgb(10, 73, 8)!important; 
+}
+
+a i.fab.fa-facebook:hover {
+    color: rgb(10, 73, 8)!important; 
+}
+
+a i.fab.fa-linkedin-in:hover  {
+    color: rgb(10, 73, 8)!important; 
+}
+
+a i.fab.fa-twitter:hover  {
+    color: rgb(10, 73, 8)!important; 
+}
+
+a i.fab.fa-youtube:hover  {
+    color: rgb(10, 73, 8)!important; 
+}
+
+.caixa-pesquisa {
+    position: absolute;
+    margin-top: 5px;
+    top: 11%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.pesquisa-txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: grey;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .2s;
+    font-family: 'Lato';
+}
+
+::-webkit-input-placeholder {
+    color: #1e3754;
+}
+
+.pesquisar-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.caixa-pesquisa:hover > .pesquisa-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.caixa-pesquisa:hover > .pesquisar-btn {
+    background: #f0f5fb;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.retangulo-log {
+    color: #000;
+    padding: 11px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 100px;
+    font-family: 'Agbalumo';
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 5px solid rgb(227, 233, 66);;
+    border-radius: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+btn-login {
+    background-color: #e87b1d;background-image: linear-gradient( to right, rgb(241,241,22), rgb(6,150,23));
+    color: #fff;
+    padding: 10px 160px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #e79756;
+}
+
+input::placeholder {
+    color: rgb(177, 174, 174);
+  }
+
+input[type="password"].visible {
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+    }
+}
+    
+label {
+        display: block;
+        margin-bottom: 10px;
+}
+    
+input[type="email"],
+input[type="password"],
+textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 5px solid rgb(227, 233, 66);;
+        border-radius: 10px;
+}
+    
+#estados {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 5px solid rgb(227, 233, 66);;
+    border-radius: 10px;
+    color: grey;
+    
+}
+
+#cidades {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 5px solid rgb(227, 233, 66);;
+    border-radius: 10px;
+    color: grey;
+}
+
+textarea {
+        resize: vertical;
+}
+
+.senha-olho {
+    position: relative;
+}
+
+.senha-olho i{
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    margin-top: 10px;
+    color: rgb(114, 105, 105);
+}
+
+.senha-confirm-olho i{
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 598px;
+    margin-top: 10px;
+    color: rgb(114, 105, 105);
+}
+.senha{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 5px solid rgb(73, 185, 42);;
+    border-radius: 10px;
+}
+
+.confirm-senha {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 5px solid rgb(73, 185, 42);;
+    border-radius: 10px;
+}
+
+.container{
+    text-align: center;
+}
+
+.container a{
+    color: #1abe1a;
+}
+
+.btn-enviar::placeholder {
+   transition: transform 0.5s;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.1);
+}
+
+.nome-cad {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 5px solid rgb(227, 233, 66);;
+    border-radius: 10px;
+}
+
+.data-cad {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 5px solid rgb(227, 233, 66);;
+    border-radius: 10px;
+}
+
+.btn-cadastrar {
+    background-color: #e87b1d;background-image: linear-gradient( to right, rgb(241,241,22), rgb(6,150,23));
+    color: #fff;
+    padding: 10px 145px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+.btn-login {
+    background-color: #e87b1d;background-image: linear-gradient( to right, rgb(241,241,22), rgb(6,150,23));
+    color: #fff;
+    padding: 10px 160px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.msg-erro {
+    color: red; 
+    display: none;
+  }
+  
+   .noticias-wraper-1 {
+    display:flex;
+    width: 100%;
+}
+
+.noticia-destaque {
+    width: 50%;
+    padding-top: 30%;
+    background-color: #222;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 200px; 
+    background-size: contain;
+   
+}
+
+.imagem {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+
+}
+
+.noticia-destaque-single {
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  
+}
+
+.descricao {
+    font-family: 'Lato';
+    color: white;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    top: 90%;
+    left: 20px;
+   
+}
+
+.descricao_grid {
+    font-family: 'Lato';
+    color: white;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    width: 90%;
+    bottom: 0;
+    top: 90%;
+    left: 20px;
+   
+}
+
+.outra-noticia1-single {
+    width: 80%; 
+    padding-top: 40%; 
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+    background-color: #222;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.outra-noticia1-single p {
+    font-family: 'Lato';
+    color: white;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    top: 83%;
+    left: 20px;
+} 
+
+.outra-noticia1-single h3 {
+    font-family: 'Signika Negative';
+    color: white;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    width: 90%;
+    position: relative;
+    bottom: 0;
+    top: 20%;
+    left: 20px;
+} 
+
+.noticias-wraper-2 {
+    display: flex;
+    width: 100%;
+    margin-top: -40px;
+}
+  
+  .noticia-destaque2 {
+    width: 25%;
+    padding-top: 13%;
+    background-repeat: no-repeat;
+    background-color: #222;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    margin-left: 200px;
+    background-position: center;
+}
+  
+  .noticia-destaque-single2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+   
+}
+  
+.noticias:hover h3 {
+    color: green !important;
+}
+
+.noticia-destaque:hover h3 {
+    color: #b9be1a !important;
+}
+
+.outra-noticia1-single:hover h3 {
+    color: #b9be1a;
+}
+
+.texto-fora-2:hover h3 {
+    color: yellow !important;
+}
+
+
+.sobre {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align:justify;
+    margin-left: 50px;
+}
+
+.sobre h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.sobre h3 {
+    font-size: 24px;
+    color: #444;
+    margin-top: 5px;
+}
+
+.sobre p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contato {
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.sobre-nos {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+.sobre-nos h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.sobre-nos h3 {
+    font-size: 24px;
+    color: #444;
+    margin-top: 30px;
+}
+
+.sobre-nos p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.botoes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botoes a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.botoes a:hover {
+    background-color: yellow;
+}
+
+.outra-noticia1-single h3:hover {
+    color: #b9be1a !important;
+}
+
+
+.contato_conosco {
+    text-align: center;
+    color: #555;
+}
+
+.texto-fora {
+    width: 40%; 
+    padding: 20px;
+}
+  
+.texto-fora h3 {
+    color: black;
+    font-family: 'Signika Negative';
+}
+  
+.texto-fora p {
+    color: black;
+    top: 150%;
+    left: 35%;
+    text-shadow: none;
+}
+
+.texto-fora-2 {
+    width: 78%; 
+    padding: 20px;
+}
+  
+.texto-fora-2 h3 {
+    color: black;
+    font-family: 'Signika Negative';
+}
+  
+.texto-fora-2 p {
+    color: black;
+    top: 150%;
+    left: 35%;
+    text-shadow: none;
+}
+.tag {
+    background-color: green; 
+    color: white; 
+    padding: 5px; 
+    display: inline-block;
+    border-radius: 2px;
+    font-family: 'Merriweather Sans';
+}
+
+.descricao2 {
+    color: black;
+    top: 150%;
+    left: 35%;
+    font-family: 'Lato';
+    text-shadow: none;
+}
+
+.descricao-4 {
+    color: black;
+    top: 145%;
+    left: 35%;
+    font-family: 'Lato';
+    text-shadow: none;
+}
+
+.descricao5 {
+    color: black;
+    top: 145%;
+    left: 35%;
+    font-family: 'Lato';
+    text-shadow: none;
+}
+
+.descricao6 {
+    color: black;
+    top: 145%;
+    left: 35%;
+    font-family: 'Lato';
+    text-shadow: none;  
+}
+
+.fa-house {
+    color: #1abe1a;
+}
+
+.fa-house:hover {
+    color: #f2fb05 !important;
+}
+
+.ret-aposta {
+    background-color: #2b58d2;
+    padding: 11px;
+    font-size: 18px;
+    margin-top: 50px;
+    width: 2000px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-family: 'Prompt';
+    cursor: pointer;
+}
+
+.ret-aposta h5 {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    margin-left: 150px;
+}
+
+.retangulo-aposta {
+    background-color: white;
+    font-size: 18px;
+    margin-top: 50px;
+    width: 1100px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    font-family: 'QuickSand';
+    margin-left: 60px;
+}
+
+.ret-pag {
+    background-color: #ffffff;
+    margin-top: 30px;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    right: 100px;
+    top: 31%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Outfit';
+    color: blue;
+}
+
+.title-principal {
+    font-size: 40px;
+    font-family: 'Dosis';
+    color: blue;
+    margin-top: -400px;
+    padding: 20px;
+}
+
+.retangulo-principal-aposta {
+    background-image: linear-gradient(to right, rgb(71, 69, 229), rgb(219, 222, 223));
+    color: #FFFFFF;
+    padding: 11px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+    width: 2000px;
+    height: 60px;
+    font-family: 'Agbalumo';
+}
+
+.portal {
+    margin-left: 600px;
+}
+
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 5px solid rgb(66, 133, 233);
+    border-radius: 10px;
+}
+
+.btn-aposta {
+    background-image: linear-gradient(to right, rgb(71, 69, 229), rgb(134, 212, 237));
+    color: #fff;
+    padding: 10px 150px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ret-pag button {
+    background-color: rgb(112, 112, 223);
+    border-radius: 10px;
+    color: white;
+    border-color: white;
+
+}
+
+.btn-aposta:hover {
+    transform: scale(1.1);
+}
+
+.conteudo {
+    margin-top: 20px;
+    text-align: justify;
+    font-family: 'Dosis';
+    font-size: 20px;
+}
+
+.descricao-not {
+    font-family: 'Dosis';
+    font-size: 18px;
+}
+
+.noticia-principal {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Oswald';
+}
+
+.fa-instagram:hover {
+    color: #1abe1a !important;
+}
+
+.fa-facebook:hover {
+    color: #1abe1a !important;
+}
+
+.fa-twitter:hover {
+    color: #1abe1a !important;
+}
+
+.fa-share-nodes:hover {
+    color: #1abe1a !important;
+}
+
+.dia-aposta {
+    display: flex;
+    background-color: #7492e4;
+    color: #FFFFFF;
+    padding: 11px;
+    font-size: 18px;
+    width: 700px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: -290px;
+    margin-left: -300px;
+
+}
+
+.cad-pag {
+    font-family: 'Oswald';
+}
+
+.time1 {
+    margin-top: -200px;
+    display: flex;
+    margin-left: -510px;
+}
+
+.time2 {
+    display: flex;
+    margin-top: -140px;
+    margin-left: -110px;
+}

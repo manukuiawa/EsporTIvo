@@ -1,0 +1,66 @@
+CRITICAL - 2023-11-24 23:15:37 --> Array to string conversion
+in APPPATH\Views\home.php on line 105.
+ 1 APPPATH\Views\home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\noticias\\app\\Views\\home.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\noticias\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 23:15:59 --> Undefined variable $noticia
+in APPPATH\Views\home.php on line 109.
+ 1 APPPATH\Views\home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\noticias\\app\\Views\\home.php', 109)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\noticias\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 23:16:00 --> Undefined variable $noticia
+in APPPATH\Views\home.php on line 109.
+ 1 APPPATH\Views\home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\noticias\\app\\Views\\home.php', 109)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\noticias\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 23:16:00 --> Undefined variable $noticia
+in APPPATH\Views\home.php on line 109.
+ 1 APPPATH\Views\home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\noticias\\app\\Views\\home.php', 109)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\noticias\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 23:16:02 --> Undefined variable $noticia
+in APPPATH\Views\home.php on line 109.
+ 1 APPPATH\Views\home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\noticias\\app\\Views\\home.php', 109)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\noticias\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 23:18:31 --> Undefined variable $noticia
+in APPPATH\Views\home.php on line 109.
+ 1 APPPATH\Views\home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\noticias\\app\\Views\\home.php', 109)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\noticias\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

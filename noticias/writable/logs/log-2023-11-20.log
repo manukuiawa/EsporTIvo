@@ -1,0 +1,54 @@
+CRITICAL - 2023-11-20 22:28:46 --> Could not check compatibility between AuthFilter::before(CodeIgiter\HTTP\RequestInterface $request, $arguments = null) and CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null), because class CodeIgiter\HTTP\RequestInterface is not available
+in APPPATH\Filters\authFilter.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-20 22:28:58 --> Could not check compatibility between AuthFilter::before(CodeIgiter\HTTP\RequestInterface $request, $arguments = null) and CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null), because class CodeIgiter\HTTP\RequestInterface is not available
+in APPPATH\Filters\authFilter.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-20 22:30:30 --> Could not check compatibility between AuthFilter::before(CodeIgiter\HTTP\RequestInterface $request, $arguments = null) and CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null), because class CodeIgiter\HTTP\RequestInterface is not available
+in APPPATH\Filters\authFilter.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-20 22:30:48 --> Could not check compatibility between AuthFilter::before(CodeIgiter\HTTP\RequestInterface $request, $arguments = null) and CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null), because class CodeIgiter\HTTP\RequestInterface is not available
+in APPPATH\Filters\authFilter.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-20 22:31:52 --> Could not check compatibility between AuthFilter::before(CodeIgiter\HTTP\RequestInterface $request, $arguments = null) and CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null), because class CodeIgiter\HTTP\RequestInterface is not available
+in APPPATH\Filters\authFilter.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-20 22:34:08 --> Class "App\Filters\AuthFilters" not found
+in SYSTEMPATH\Filters\Filters.php on line 177.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('noticias', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 22:43:54 --> Could not check compatibility between AuthFilter::before(CodeIgiter\HTTP\RequestInterface $request, $arguments = null) and CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null), because class CodeIgiter\HTTP\RequestInterface is not available
+in APPPATH\Filters\authFilter.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-20 22:46:25 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 177.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('noticias', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 23:06:04 --> The route for "login.sair" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 489.
+ 1 SYSTEMPATH\Helpers\url_helper.php(489): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('login.sair')
+ 2 APPPATH\Views\header.php(25): url_to('login.sair')
+ 3 APPPATH\Views\noticias.php(27): include_once('C:\\xampp\\htdocs\\noticias\\app\\Views\\header.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\noticias\\app\\Views\\noticias.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('noticias', [], true)
+ 7 APPPATH\Controllers\Noticia.php(21): view('noticias', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Noticia->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Noticia))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 23:06:14 --> The route for "login.sair" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 489.
+ 1 SYSTEMPATH\Helpers\url_helper.php(489): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('login.sair')
+ 2 APPPATH\Views\header.php(25): url_to('login.sair')
+ 3 APPPATH\Views\noticias.php(27): include_once('C:\\xampp\\htdocs\\noticias\\app\\Views\\header.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\noticias\\app\\Views\\noticias.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('noticias', [], true)
+ 7 APPPATH\Controllers\Noticia.php(21): view('noticias', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Noticia->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Noticia))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
